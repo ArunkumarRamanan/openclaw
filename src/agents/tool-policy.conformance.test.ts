@@ -1,7 +1,6 @@
 import { describe, expect, test } from "vitest";
-
-import { TOOL_GROUPS } from "./tool-policy.js";
 import { TOOL_POLICY_CONFORMANCE } from "./tool-policy.conformance.js";
+import { TOOL_GROUPS } from "./tool-policy.js";
 
 describe("TOOL_POLICY_CONFORMANCE", () => {
   test("matches exported TOOL_GROUPS exactly", () => {
